@@ -1,0 +1,16 @@
+﻿@model IEnumerable<WebApplication8.Models.Category>
+
+@{
+    ViewBag.Title = "CategoryList";
+}
+
+<h2>@ViewBag.show</h2>
+<p>
+    @Html.ActionLink("Create Now","Create")
+</p>
+@using (Html.BeginForm())
+            {
+                @Html.EditorForModel()
+    <input type="submit" value="Submit"  />
+            }
+

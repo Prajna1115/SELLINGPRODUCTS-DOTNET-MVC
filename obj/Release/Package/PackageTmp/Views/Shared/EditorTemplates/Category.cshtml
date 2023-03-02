@@ -1,0 +1,18 @@
+﻿@model WebApplication8.Models.Category
+
+@{
+    ViewBag.Title = "Category";
+}
+
+<table>
+    <tr>
+        <td>
+            @Html.HiddenFor(c => c.id)
+            @Html.HiddenFor(c => c.name)
+        </td>
+        <td>@Html.DisplayFor(c => c.name)</td>
+        <td>@Html.CheckBoxFor(c => c.check)</td>
+        </tr>
+</table>
+<br />
+

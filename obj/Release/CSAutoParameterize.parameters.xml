@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:tranningmysql.database.windows.net,1433;Initial Catalog=DXCTranningFeb;Persist Security Info=False;User ID=Prajna@1115@tranningmysql;Password={Kamakhya@1234sipu};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spraj\\source\\repos\\WebApplication8\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="prajnaDbEntities-Web.config Connection String" description="prajnaDbEntities Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:tranningmysql.database.windows.net,1433;Initial Catalog=DXCTranningFeb;Persist Security Info=False;User ID=Prajna@1115@tranningmysql;Password={Kamakhya@1234sipu};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spraj\\source\\repos\\WebApplication8\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='prajnaDbEntities']/@connectionString" />
+  </parameter>
+</parameters>
